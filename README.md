@@ -1,2 +1,1 @@
-# vscode-jai
-Jai syntax highlighting for Visual Studio Code
+Jai language syntax based off of the similar Odin syntax highlighting (https://github.com/thebirk/vscode-odin).
