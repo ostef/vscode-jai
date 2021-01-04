@@ -125,7 +125,6 @@
 				</dict>
 			</array>
 		</dict>
-
 		<key>comments</key>
 		<dict>
 			<key>patterns</key>
@@ -171,7 +170,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b(push_context|context)\b</string>
+					<string>\b(push_context|context|it|it_index)\b</string>
 					<key>name</key>
 					<string>keyword.other.jai</string>
 				</dict>
@@ -213,7 +212,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b(no_check|stallable)\b</string>
+					<string>\b(no_check|stallable|no_dll)\b</string>
 					<key>name</key>
 					<string>keyword.function.jai</string>
 				</dict>
@@ -292,7 +291,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\b(size_of|align_of|type_of|type_info)\b\s*\(</string>
+					<string>\b(size_of|align_of|type_of|type_info|initializer_of)\b\s*\(</string>
 					<key>captures</key>
 					<dict>
 						<key>1</key>
@@ -368,7 +367,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\\(\\|[abefnrut'"]|x[0-9a-fA-F]{2}|u[0-9a-fA-F]{4}|U[0-9a-fA-F]{8}|[0-7]{3})</string>
+					<string>\\(\\|[abefnrut"0]|x[0-9a-fA-F]{2}|u[0-9a-fA-F]{4}|U[0-9a-fA-F]{8}|[0-7]{3})</string>
 					<key>name</key>
 					<string>constant.character.escape.jai</string>
 				</dict>
@@ -419,7 +418,6 @@
 						</dict>
 					</array>
 				</dict>
-				<!-- @Todo (stefan): #string syntax highlighting !-->
 			</array>
 		</dict>
 	</dict>
